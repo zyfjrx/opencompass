@@ -301,5 +301,10 @@ class MyDatasetSemanticEvaluator(BaseEvaluator):
 
 # 保持原有的MyDatasetEvaluator作为备用
 class MyDatasetEvaluator(MyDatasetSemanticEvaluator):
-    """默认评估器，使用语义评估"""
+    """默认评估器，使用语义评估
+    
+    该评估器基于语义相似度和完整性评估答案质量。
+    它计算预测与参考答案的语义相似度、完整性和准确性，
+    并根据这些指标计算综合评分。
+    """
     pass

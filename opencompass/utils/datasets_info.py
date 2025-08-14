@@ -8,7 +8,6 @@ DATASETS_MAPPING = {
     # 在 DATASETS_MAPPING 字典中添加
     "pet_data/pet_dataset_100.jsonl": {
         "local": "/root/sft/opencompass/pet_data/outdata/",
-        # 如果有远程版本，可以添加 hf_id 和 ms_id
     },
     # AGIEval Datasets
     "opencompass/agieval": {
