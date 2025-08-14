@@ -14,7 +14,7 @@ mydataset_eval_cfg = dict(
 mydataset_datasets = [
     dict(
         type=MyDataset,
-        path='/root/sft/opencompass/pet_data/outdata',  # 数据集路径
+        path='pet_data/pet_dataset',  # 数据集路径
         name='mydataset',
         abbr='mydataset',
         reader_cfg=dict(
@@ -36,7 +36,7 @@ mydataset_datasets = [
                 )
             ),
             retriever=dict(type='ZeroRetriever'),
-            inferencer=dict(type='GenInferencer', max_out_len=512)
+            inferencer=dict(type='GenInferencer')
         ),
         eval_cfg=mydataset_eval_cfg
     )
