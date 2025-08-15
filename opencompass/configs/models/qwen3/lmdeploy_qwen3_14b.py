@@ -15,6 +15,6 @@ models = [
         max_out_len=32768,
         batch_size=16,
         run_cfg=dict(num_gpus=1),
-        pred_postprocessor=dict(type=extract_non_reasoning_content)
+        # pred_postprocessor=dict(type=extract_non_reasoning_content)
     ),
 ]

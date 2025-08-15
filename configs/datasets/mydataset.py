@@ -7,7 +7,7 @@ mydataset_eval_cfg = dict(
         similarity_threshold=0.7,  # 可调整相似度阈值
         # use_fuzzy_match=True
     ),
-    pred_postprocessor=dict(type=mydataset_postprocess)
+    # pred_postprocessor=dict(type=mydataset_postprocess)
 )
 
 # 数据集配置

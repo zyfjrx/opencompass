@@ -7,7 +7,7 @@ DATASETS_MAPPING = {
     },
     # 在 DATASETS_MAPPING 字典中添加
     "pet_data/pet_dataset": {
-        "local": "/root/sft/opencompass/pet_data/outdata/",
+        "local": "/root/sft/opencompass/pet_data/distill",
     },
     # AGIEval Datasets
     "opencompass/agieval": {
